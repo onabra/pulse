@@ -1,0 +1,93 @@
+HELP.md
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Kotlin ###
+.kotlin/
+
+### Logs ###
+*.log
+logs/
+spring.log
+
+### Environment ###
+.env
+.env.*
+!.env.example
+
+### Spring local config ###
+application-local.yml
+application-local.yaml
+application-dev.yml
+application-dev.yaml
+application-prod.yml
+application-prod.yaml
+
+### Secrets / certificates ###
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+### Temp files ###
+tmp/
+temp/
+*.tmp
+
+### Runtime storage ###
+uploads/
+storage/
+data/
+
+### Local databases ###
+*.db
+*.sqlite
+*.sqlite3
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Coverage / reports ###
+coverage/
+reports/
+
+### Maven fallback ###
+target/
